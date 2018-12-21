@@ -1,6 +1,6 @@
 import os
 from flask import Flask, render_template, request
-from flask.ext.pymongo import PyMongo
+from flask_pymongo import PyMongo
 
 app = Flask(__name__)
 app.config['MONGO_URI'] = os.environ['MONGO_URI']

@@ -1,0 +1,11 @@
+{
+    "python.pythonPath": ".venv/bin/python",
+    "mongoRunner": {
+        "connections": [
+            {
+                "url": "mongodb://localhost:27017/my_database",
+                "user": "my_user"
+            }
+        ]
+    }
+}
